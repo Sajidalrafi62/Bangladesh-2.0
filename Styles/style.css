@@ -5,6 +5,9 @@
     color: rgb(255, 255, 255) !important;         /* Change text color on hover */
     transform: scale(1.1);    /* Slightly enlarge the button */
   }
+body{
+    background: rgb(245, 245, 245);
+}
 /* common things ends */
 
 /* first page starts */
@@ -271,6 +274,11 @@ nav{
     align-items: flex-start;
     padding: 48px 65px 48px 24px;
     position: relative;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    width: 1441px;
 }
 
 .page-3 .speech .speech-content{
@@ -281,9 +289,6 @@ nav{
     line-height: 28px;
     letter-spacing: 0%;
     text-align: left;
-    /* background-image: url(../assets/quote-bg.png);
-    background-repeat: no-repeat;
-    background-position: top left; */
 }
 
 .page-3 .speech .name{
@@ -321,3 +326,92 @@ nav{
 }
 
 /* third page ends */
+
+/* fourth page starts */
+.page-4{
+    margin: 80px 160px 80px 160px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+}
+.opinion-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.opinion-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px;
+
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+    padding: 24px;
+}
+
+.opinion-table{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 32px;
+}
+
+.opinion-table .opinion-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px;
+}
+
+.opinion-table .opinion-row .main-questions{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 24px;
+    width: 1017px;
+    height: 92px;
+}
+
+.opinion-table .opinion-row .select-options{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 24px;
+    width: 200px;
+}
+
+.opinion-table .opinion-row .select-options .option{
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    padding: 10px 14px 10px 14px;
+    height: 42px;
+}
+
+/* fourth page ends */
