@@ -1,8 +1,10 @@
 /* common things starts */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-.bttn{
-
-}
+.bttn:hover {
+    background-color: #6d54da !important; /* Change background color on hover */
+    color: rgb(255, 255, 255) !important;         /* Change text color on hover */
+    transform: scale(1.1);    /* Slightly enlarge the button */
+  }
 /* common things ends */
 
 /* first page starts */
@@ -93,3 +95,229 @@ nav{
     border: none;
 }
 /* first page ends */
+
+/* second page starts */
+.page-2{
+    margin: 80px 160px 80px 160px;
+}
+
+.page-2 .p2-h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.page-2 .frame-container{
+    position: static;
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 24px;
+    padding: 0px;
+    }
+
+.page-2 .frame-container .frame{
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.page-2 .frame-container .frame-header{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.page-2 .frame-container .frame-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+/* second page ends */
+
+/* third page starts */
+.page-3{
+    margin: 80px 160px 80px 160px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.page-3 .p3-h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 55.5px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.page-3 .p3-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 18.49px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.page-3 .card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+    padding: 0px;
+}
+
+.page-3 .card-container .card{
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+.page-3 .card-container #card-1{
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.page-3 .card-container #card-2{
+    background: rgb(198, 228, 214);
+}
+
+.page-3 .card-container #card-3{
+    background: rgb(247, 235, 207);
+}
+
+.page-3 .card-container .card-heading{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.page-3 .card-container .card-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 18.49px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.page-3 .card-container .card .bttn{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18.5px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 9.2px;
+    padding: 13px 23px 13px 23px;
+    border: none;
+}
+.page-3 .card-container .card #p3-b1{
+    background: rgb(84, 144, 245);
+}
+.page-3 .card-container .card #p3-b2{
+    background: rgb(9, 161, 92);
+}
+
+.page-3 .card-container .card #p3-b3{
+    background: rgb(255, 194, 57);
+}
+
+.page-3 .speech{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 48px 65px 48px 24px;
+    position: relative;
+}
+
+.page-3 .speech .speech-content{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 18.5px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left; */
+}
+
+.page-3 .speech .name{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 28 px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.page-3 .speech .position{
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 18.5px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.page-3 .speech .quote-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../assets/quote-bg.png') no-repeat center left;
+    background-size: 75px;
+    background-position: 46px 60px;
+    z-index: 0; 
+    margin: -20px;
+}
+
+/* third page ends */
